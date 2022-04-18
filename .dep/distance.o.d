@@ -1,1 +1,0 @@
-distance.o: distance.c
