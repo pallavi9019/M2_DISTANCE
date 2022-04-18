@@ -1,0 +1,28 @@
+make.exe --dry-run --keep-going --print-directory
+make.exe: Entering directory `d:/M2_DISTANCE-1'
+echo
+echo -------- begin --------
+avr-gcc --version
+ 
+if test -f distance.elf; then echo; echo Size before: ; avr-size --mcu=atmega32 --format=avr distance.elf; \
+	2>/dev/null; echo; fi
+ 
+process_begin: CreateProcess(NULL, "", ...) failed.
+process_begin: CreateProcess(NULL, "", ...) failed.
+make.exe: *** No rule to make target `distance.elf', needed by `elf'.
+
+make.exe: *** No rule to make target `distance.hex', needed by `hex'.
+
+make.exe: *** No rule to make target `distance.eep', needed by `eep'.
+
+make.exe: *** No rule to make target `distance.lss', needed by `lss'.
+
+make.exe: *** No rule to make target `distance.sym', needed by `sym'.
+
+if test -f distance.elf; then echo; echo Size after:; avr-size --mcu=atmega32 --format=avr distance.elf; \
+	2>/dev/null; echo; fi
+echo --------  end  --------
+ 
+echo
+make.exe: Leaving directory `d:/M2_DISTANCE-1'
+ 
