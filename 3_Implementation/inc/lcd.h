@@ -1,4 +1,13 @@
-
+/**
+ * @file lcd.h
+ * @author Pallavi M 
+ * @brief Lcd header file will display the value of distance
+ * @version 0.1
+ * @date 2022-04-19
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 
 #ifndef LCD_16x2_H_H_					/* Define library H file if not defined */
 #define LCD_16x2_H_H_
@@ -14,12 +23,35 @@
 #define EN PD5							/* Define Enable signal pin */
 #define RW PD4							/* Define Read/Write signal pin */
 #define RS PD3							/* Define Register Select (data reg./command reg.) signal pin */
-
-void LCD_Command (char);				/* LCD command write function */
-void LCD_Char (char);					/* LCD data write function */
-void LCD_Init (void);					/* LCD Initialize function */
-void LCD_String (char*);				/* Send string to LCD function */
-void LCD_String_xy (char,char,char*);	/* Send row, position and string to LCD function */
+/**
+ * @brief Function that contains all the command dedinitions
+ * 
+ */
+void LCD_Command (char);
+/**
+ * @brief Function that contains all the character dedinitions
+ * 
+ */
+void LCD_Char (char);	
+/**
+ * @brief Function to initialise the the necessary commands for LCD
+ * 
+ */
+void LCD_Init (void);	
+/**
+ * @brief Function that contains all the string dedinitions
+ * 
+ */
+void LCD_String (char*);				
+/**
+ * @brief Send string to LCD function
+ * 
+ */
+void LCD_String_xy (char,char,char*);
+/**
+ * @brief Function to clear the LCD display
+ * 
+ */
 void LCD_Clear(void);						/* Clear LCD*/
 
 
