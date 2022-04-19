@@ -1,4 +1,6 @@
-distance.o: distance.c src\lcd.c inc\lcd.h
+distance.o: distance.c inc\lcd.h src\lcd.c inc\lcd.h
+
+inc\lcd.h:
 
 src\lcd.c:
 

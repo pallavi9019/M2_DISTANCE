@@ -1,3 +1,6 @@
+
+
+
 #include "inc\lcd.h"						/* Include LCD header file */
 
 
@@ -52,8 +55,7 @@ void LCD_String_xy (char row, char pos, char *str)	/* Send string to LCD functio
 	LCD_String(str);								/* Call LCD string function */
 }
 
-void LCD_Clear (void)								/* LCD clear function */
+void LCD_Clear()
 {
-	LCD_Command (0x01);								/* Clear LCD command */
-	LCD_Command (0x80);								/* 8 is for first line and 0 is for 0th position */
+	LCD_Command(0x01);								/* clear display */
 }

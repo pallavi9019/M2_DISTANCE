@@ -1,19 +1,23 @@
+
+
 #define F_CPU 8000000UL
 #include <avr/io.h>
 #include <avr/interrupt.h>
 #include <util/delay.h>
 #include <string.h>
-#include <stdlib.h> 
-#include <src\lcd.c>
-#include <inc\lcd.h>      /* Include LCD header file */
-
+#include <stdlib.h>
+#include "inc\lcd.h"
+#include "src\lcd.c"
 #define  Trigger_pin	PD0	/* Trigger pin */
 
 
 int TimerOverflow = 0;
 
 
-
+ISR(TIMER1_OVF_vect)
+{
+	TimerOverflow++;	/* Increment Timer Overflow count */
+}
 
 int main(void)
 {
@@ -25,7 +29,7 @@ int main(void)
 	PORTD = 0xFF;		/* Turn on Pull-up */
 	
 	LCD_Init();
-	LCD_String_xy(1, 0, "Ultrasonic");
+	LCD_String_xy(1, 0, "Object");
 	
 	sei();			/* Enable global interrupt */
 	TIMSK = (1 << TOIE1);	/* Enable Timer1 overflow interrupts */
