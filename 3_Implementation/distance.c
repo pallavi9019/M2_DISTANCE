@@ -4,8 +4,8 @@
 #include <util/delay.h>
 #include <string.h>
 #include <stdlib.h> 
-#include <lcd.c>
-#include <lcd.h>      /* Include LCD header file */
+#include <src\lcd.c>
+#include <inc\lcd.h>      /* Include LCD header file */
 
 #define  Trigger_pin	PD0	/* Trigger pin */
 
