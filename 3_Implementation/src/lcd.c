@@ -1,7 +1,7 @@
 
 
 
-#include "inc\lcd.h"						/* Include LCD header file */
+#include "inc/lcd.h"						/* Include LCD header file */
 
 
 void LCD_Command (char cmd)							/* LCD command write function */

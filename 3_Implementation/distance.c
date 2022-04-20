@@ -6,8 +6,8 @@
 #include <util/delay.h>
 #include <string.h>
 #include <stdlib.h>
-#include "inc\lcd.h"
-#include "src\lcd.c"
+#include "inc/lcd.h"
+#include "src/lcd.c"
 #define  Trigger_pin	PD0	/* Trigger pin */
 
 
