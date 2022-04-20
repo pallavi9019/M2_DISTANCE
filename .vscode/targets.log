@@ -8,7 +8,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This program built for i386-pc-mingw32
  
 
-# Make data base, printed on Tue Apr 19 19:36:34 2022
+# Make data base, printed on Wed Apr 20 12:03:56 2022
 
 # Variables
 
@@ -16,28 +16,12 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 <D = $(patsubst %/,%,$(dir $<))
 # automatic
 ?F = $(notdir $?)
-# makefile (from `makefile', line 377)
-OBJ = $(SRC:%.c=$(OBJDIR)/%.o) $(CPPSRC:%.cpp=$(OBJDIR)/%.o) $(ASRC:%.S=$(OBJDIR)/%.o) 
-# makefile (from `makefile', line 279)
-AVRDUDE_PORT = usb
-# makefile (from `makefile', line 83)
-SRC = $(TARGET).c
-# makefile (from `makefile', line 369)
-MSG_ASSEMBLING = Assembling:
 # makefile
 MAKEFLAGS = Rrqp
 # environment
 VSCODE_LOG_NATIVE = false
-# makefile (from `makefile', line 73)
-TARGET = distance
-# makefile (from `makefile', line 370)
-MSG_CLEANING = Cleaning project:
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
-# makefile (from `makefile', line 192)
-CPPFLAGS = -g$(DEBUG) $(CPPDEFS) -O$(OPT) -funsigned-char -funsigned-bitfields -fpack-struct -fshort-enums -fno-exceptions -Wall -Wundef -Wa,-adhlns=$(<:%.cpp=$(OBJDIR)/%.lst) $(patsubst %,-I%,$(EXTRAINCDIRS))
-# makefile (from `makefile', line 488)
-COFFCONVERT = $(OBJCOPY) --debugging --change-section-address .data-0x800000 --change-section-address .bss-0x800000 --change-section-address .noinit-0x800000 --change-section-address .eeprom-0x810000
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
@@ -47,128 +31,70 @@ HOMEDRIVE = C:
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # makefile
-CURDIR := d:/M2_DISTANCE-1
+CURDIR := d:/M2_DISTANCE
 # default
 SHELL := C:/WinAVR-20100110/utils/bin/sh.exe
-# makefile (from `makefile', line 345)
-NM = avr-nm
-# makefile (from `makefile', line 133)
-ADEFS = -DF_CPU=$(F_CPU)
-# 
- environment
+# environment
 WINDIR = C:\Windows
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
 VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
-# makefile (from `makefile', line 254)
-EXTMEMOPTS = 
-# makefile (from `makefile', line 166)
-CFLAGS = -g$(DEBUG) $(CDEFS) -O$(OPT) -funsigned-char -funsigned-bitfields -fpack-struct -fshort-enums -Wall -Wstrict-prototypes -Wa,-adhlns=$(<:%.c=$(OBJDIR)/%.lst) $(patsubst %,-I%,$(EXTRAINCDIRS)) $(CSTANDARD)
 # environment
 ONEDRIVE = C:\Users\DELL\OneDrive
-# makefile (from `makefile', line 360)
-MSG_COFF = Converting to AVR COFF:
-# makefile (from `makefile', line 302)
-AVRDUDE_FLAGS = -p $(MCU) -P $(AVRDUDE_PORT) -c $(AVRDUDE_PROGRAMMER) $(AVRDUDE_NO_VERIFY) $(AVRDUDE_VERBOSE) $(AVRDUDE_ERASE_COUNTER)
-# makefile (from `makefile', line 129)
-CDEFS = -DF_CPU=$(F_CPU)UL
 # environment
 PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
-# makefile (from `.dep/distance.o.d', line 1)
-MAKEFILE_LIST :=  makefile .dep/distance.o.d
+# makefile
+MAKEFILE_LIST := 
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
-# makefile (from `makefile', line 110)
-DEBUG = dwarf-2
 # environment
 TMP = C:\Users\DELL\AppData\Local\Temp
-# makefile (from `makefile', line 349)
-COPY = cp
 # environment
 VSCODE_VERBOSE_LOGGING = true
-# makefile (from `makefile', line 350)
-WINSHELL = cmd
 # environment
 PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-972a1693-ddbe-4e50-8de7-57902af5987d-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-b1c70acf-2264-4d94-99b4-4f28a856d36d-sock
 # environment
 VSCODE_CWD = C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code
-# makefile (from `makefile', line 357)
-MSG_END = --------  end  --------
 # environment
-PATH = C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\MinGW\bin;C;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin
-# makefile (from `makefile', line 347)
-REMOVE = rm -f
-# makefile (from `makefile', line 213)
-PRINTF_LIB_FLOAT = -Wl,-u,vfprintf -lprintf_flt
+PATH = C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\MinGW\ 
+bin;C;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin
 # environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
-# makefile (from `makefile', line 117)
-EXTRAINCDIRS = 
 # environment
 PROCESSOR_ARCHITECTURE = x86
-# makefile (from `makefile', line 366)
-MSG_LINKING = Linking:
 # environment
 USERPROFILE = C:\Users\DELL
-# makefile (from `makefile', line 364)
-MSG_EXTENDED_LISTING = Creating Extended Listing:
 # environment
 ALLUSERSPROFILE = C:\ProgramData
-# makefile (from `makefile', line 346)
-AVRDUDE = avrdude
-# makefile (from `makefile', line 344)
-AR = avr-ar rcs
 # environment
 VSCODE_LOG_STACK = false
 # environment
 NUMBER_OF_PROCESSORS = 4
 # environment
 ELECTRON_RUN_AS_NODE = 1
-# makefile (from `makefile', line 265)
-LDFLAGS = -Wl,-Map=$(TARGET).map,--cref $(EXTMEMOPTS) $(patsubst %,-L%,$(EXTRALIBDIRS)) $(PRINTF_LIB) $(SCANF_LIB) $(MATH_LIB)
-# makefile (from `makefile', line 359)
-MSG_SIZE_AFTER = Size after:
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives
-# makefile (from `makefile', line 216)
-PRINTF_LIB = 
 # environment
 SYNAPROGDIR = Synaptics\SynTP
-# makefile (from `makefile', line 343)
-SIZE = avr-size
 # automatic
 %F = $(notdir $%)
-# makefile (from `makefile', line 65)
-F_CPU = 8000000
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_10436_GETGIGCOPUOBPPDY
-# makefile (from `makefile', line 103)
-OPT = s
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9392_DMQESRHPNYLGLBVK
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
 COMPUTERNAME = DESKTOP-L9O69TI
-# makefile (from `makefile', line 69)
-FORMAT = ihex
 # environment
 PROGRAMFILES = C:\Program Files (x86)
-# makefile (from `makefile', line 240)
-EXTRALIBDIRS = 
 # environment
 DRIVERDATA = C:\Windows\System32\Drivers\DriverData
-# makefile (from `makefile', line 323)
-JTAG_DEV = /dev/com1
-# makefile (from `makefile', line 228)
-SCANF_LIB = 
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
-# makefile (from `makefile', line 137)
-CPPDEFS = -DF_CPU=$(F_CPU)UL
 # environment
 AVR32_HOME = C:\WinAVR-20100110
 # environment
@@ -177,64 +103,30 @@ USERNAME = DELL
 PUBLIC = C:\Users\Public
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
-# makefile (from `makefile', line 371)
-MSG_CREATING_LIBRARY = Creating library:
 # environment
 VSCODE_CODE_CACHE_PATH = C:\Users\DELL\AppData\Roaming\Code\CachedData\dfd34e8260c270da74b5c2d86d61aee4b6d56977
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
-# makefile (from `makefile', line 368)
-MSG_COMPILING_CPP = Compiling C++:
 # environment
 COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # environment
 LOGONSERVER = \\DESKTOP-L9O69TI
-# makefile (from `makefile', line 222)
-SCANF_LIB_MIN = -Wl,-u,vfscanf -lscanf_min
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # environment
 USERDOMAIN = DESKTOP-L9O69TI
-# makefile (from `makefile', line 97)
-ASRC = 
-# makefile (from `makefile', line 384)
-GENDEPFLAGS = -MMD -MP -MF .dep/$(@F).d
-# makefile (from `makefile', line 225)
-SCANF_LIB_FLOAT = -Wl,-u,vfscanf -lscanf_flt
-# makefile (from `makefile', line 44)
-MCU = atmega32
 # default
 MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
-# makefile (from `makefile', line 428)
-HEXSIZE = $(SIZE) --target=$(FORMAT) $(TARGET).hex
-# makefile (from `makefile', line 340)
-CC = avr-gcc
-# makefile (from `makefile', line 205)
-ASFLAGS = $(ADEFS) -Wa,-adhlns=$(<:%.S=$(OBJDIR)/%.lst),-gstabs,--listing-cont-lines=100
 # default
 MAKE_VERSION := 3.81
-# makefile (from `makefile', line 356)
-MSG_BEGIN = -------- begin --------
-# makefile (from `makefile', line 367)
-MSG_COMPILING = Compiling C:
 # makefile
-.DEFAULT_GOAL := all
-# makefile (from `makefile', line 313)
-DEBUG_UI = insight
-# makefile (from `makefile', line 358)
-MSG_SIZE_BEFORE = Size before: 
-# makefile (from `makefile', line 348)
-REMOVEDIR = rm -rf
+.DEFAULT_GOAL := 
 # environment
 PROGRAMFILES(X86) = C:\Program Files (x86)
-# makefile (from `makefile', line 210)
-PRINTF_LIB_MIN = -Wl,-u,vfprintf -lprintf_min
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
-# makefile (from `makefile', line 281)
-AVRDUDE_WRITE_FLASH = -U flash:w:$(TARGET).hex
 # environment
 LOCALAPPDATA = C:\Users\DELL\AppData\Local
 # environment
@@ -243,8 +135,6 @@ PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\Wi
 MAKE_COMMAND := make.exe
 # environment
 PROCESSOR_ARCHITEW6432 = AMD64
-# makefile (from `makefile', line 429)
-ELFSIZE = $(SIZE) --mcu=$(MCU) --format=avr $(TARGET).elf
 # default
 .VARIABLES := 
 # automatic
@@ -255,102 +145,58 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
 OS = Windows_NT
 # environment
 VSCODE_IPC_HOOK = \\.\pipe\94d617bfb1ac0c411605adcb3cbd2f14-1.66.2-main-sock
-# makefile (from `makefile', line 363)
-MSG_EEPROM = Creating load file for EEPROM:
 # environment
 HOMEPATH = \Users\DELL
 # environment
 COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
-# makefile (from `makefile', line 316)
-DEBUG_BACKEND = avarice
 # environment
 PROMPT = $P$G
 # environment
 MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
-# makefile (from `makefile', line 276)
-AVRDUDE_PROGRAMMER = stk500v2
 # environment
 SYSTEMROOT = C:\Windows
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
-# makefile (from `makefile', line 361)
-MSG_EXTENDED_COFF = Converting to AVR Extended COFF:
-# makefile (from `makefile', line 342)
-OBJDUMP = avr-objdump
-# makefile (from `makefile', line 233)
-MATH_LIB = -lm
 # automatic
 +F = $(notdir $+)
 # environment
 APPDATA = C:\Users\DELL\AppData\Roaming
-# makefile (from `makefile', line 362)
-MSG_FLASH = Creating load file for Flash:
 # environment
 TEMP = C:\Users\DELL\AppData\Local\Temp
 # environment
 COMSPEC = C:\Windows\system32\cmd.exe
-# makefile (from `makefile', line 391)
-ALL_ASFLAGS = -mmcu=$(MCU) -I. -x assembler-with-cpp $(ASFLAGS)
-# makefile (from `makefile', line 390)
-ALL_CPPFLAGS = -mmcu=$(MCU) -I. -x c++ $(CPPFLAGS) $(GENDEPFLAGS)
-# makefile (from `makefile', line 87)
-CPPSRC = 
 # default
 MAKEFILES := 
 # automatic
 <F = $(notdir $<)
-# makefile (from `makefile', line 331)
-DEBUG_HOST = localhost
-# makefile (from `makefile', line 79)
-OBJDIR = .
-# makefile (from `makefile', line 389)
-ALL_CFLAGS = -mmcu=$(MCU) -I. $(CFLAGS) $(GENDEPFLAGS)
-# makefile (from `makefile', line 326)
-DEBUG_PORT = 4242
 # environment
 LC_ALL = C
-# makefile (from `makefile', line 365)
-MSG_SYMBOL_TABLE = Creating Symbol Table:
 # automatic
 ^F = $(notdir $^)
-# makefile (from `makefile', line 341)
-OBJCOPY = avr-objcopy
-# makefile (from `makefile', line 320)
-GDBINIT_FILE = __avr_gdbinit
 # default
 SUFFIXES := 
 # environment
 SYSTEMDRIVE = C:
 # environment
 SESSIONNAME = Console
-# makefile (from `makefile', line 410)
-LIBNAME = lib$(TARGET).a
 # environment
 PROCESSOR_REVISION = 4e03
-# makefile (from `makefile', line 125)
-CSTANDARD = -std=gnu99
 # environment
 MAKELEVEL := 0
-# makefile (from `makefile', line 309)
-DEBUG_MFREQ = $(F_CPU)
 # environment
 LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
-# makefile (from `makefile', line 380)
-LST = $(SRC:%.c=$(OBJDIR)/%.lst) $(CPPSRC:%.cpp=$(OBJDIR)/%.lst) $(ASRC:%.S=$(OBJDIR)/%.lst) 
 # environment
-VSCODE_PID = 10436
-# makefile (from `makefile', line 355)
-MSG_ERRORS_NONE = Errors: none
+VSCODE_PID = 9392
 # environment
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-L9O69TI
 # variable set hash-table stats:
-# Load=168/1024=16%, Rehash=0, Collisions=25/316=8%
+# Load=91/1024=9%, Rehash=0, Collisions=9/107=8%
 
 # Pattern-specific Variable Values
 
@@ -358,153 +204,26 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-L9O69TI
 
 # Directories
 
-# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1617976353): 30 files, no impossibilities.
-# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1647258436): 154 files, no impossibilities.
-# . (key d:/M2_DISTANCE-1, mtime 1650377185): 17 files, no impossibilities.
-# .dep (key d:/M2_DISTANCE-1/.dep, mtime 1650303044): 3 files, no impossibilities.
-# C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/DELL/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1649860414): 4 files, no impossibilities.
-# C:\MinGW\bin (key C:/MinGW/bin, mtime 1648721046): 144 files, no impossibilities.
-# C: could not be stat'd.
+# . (key d:/M2_DISTANCE, mtime 1650436422): 8 files, no impossibilities.
 # C:\WinAVR-20100110\bin (key C:/WinAVR-20100110/bin, mtime 1649501913): 75 files, no impossibilities.
-# C:\Windows\System32\OpenSSH\: could not be stat'd.
-# C:\Windows (key C:/Windows, mtime 1650265419): 109 files, no impossibilities.
-# C:\WinAVR-20100110\utils\bin (key C:/WinAVR-20100110/utils/bin, mtime 1649590278): 133 files, no impossibilities.
-# C:\Users\DELL\AppData\Local\Microsoft\WindowsApps (key C:/Users/DELL/AppData/Local/Microsoft/WindowsApps, mtime 1649741113): 15 files, no impossibilities.
-# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1648619035): 8 files, no impossibilities.
-# C:\Windows\system32 (key C:/Windows/system32, mtime 1650376885): 2770 files, no impossibilities.
+# C:\WinAVR-20100110\utils\bin (key C:/WinAVR-20100110/utils/bin, mtime 1649590278): 99 files, no impossibilities so far.
 
-# 3462 files, no impossibilities in 14 directories.
+# 182 files, no impossibilities in 3 directories.
 
 # Implicit Rules
 
-%.hex: %.elf
-#  commands to execute (from `makefile', line 507):
-	@echo
-	@echo $(MSG_FLASH) $@
-	$(OBJCOPY) -O $(FORMAT) -R .eeprom -R .fuse -R .lock $< $@
-	
-
-%.eep: %.elf
-#  commands to execute (from `makefile', line 512):
-	@echo
-	@echo $(MSG_EEPROM) $@
-	-$(OBJCOPY) -j .eeprom --set-section-flags=.eeprom="alloc,load" \
-	--change-section-lma .eeprom=0 --no-change-warnings -O $(FORMAT) $< $@ || exit 0
-	
-
-%.lss: %.elf
-#  commands to execute (from `makefile', line 519):
-	@echo
-	@echo $(MSG_EXTENDED_LISTING) $@
-	$(OBJDUMP) -h -S -z $< > $@
-	
-
-%.sym: %.elf
-#  commands to execute (from `makefile', line 525):
-	@echo
-	@echo $(MSG_SYMBOL_TABLE) $@
-	$(NM) -n $< > $@
-	
-
-%.a: ./distance.o
-#  commands to execute (from `makefile', line 535):
-	@echo
-	@echo $(MSG_CREATING_LIBRARY) $@
-	$(AR) $@ $(OBJ)
-	
-
-%.elf: ./distance.o
-#  commands to execute (from `makefile', line 544):
-	@echo
-	@echo $(MSG_LINKING) $@
-	$(CC) $(ALL_CFLAGS) $^ --output $@ $(LDFLAGS)
-	
-
-%.o: %.c
-#  commands to execute (from `makefile', line 551):
-	@echo
-	@echo $(MSG_COMPILING) $<
-	$(CC) -c $(ALL_CFLAGS) $< -o $@ 
-	
-
-%.o: %.cpp
-#  commands to execute (from `makefile', line 558):
-	@echo
-	@echo $(MSG_COMPILING_CPP) $<
-	$(CC) -c $(ALL_CPPFLAGS) $< -o $@ 
-	
-
-%.s: %.c
-#  commands to execute (from `makefile', line 565):
-	$(CC) -S $(ALL_CFLAGS) $< -o $@
-	
-
-%.s: %.cpp
-#  commands to execute (from `makefile', line 570):
-	$(CC) -S $(ALL_CPPFLAGS) $< -o $@
-	
-
-%.o: %.S
-#  commands to execute (from `makefile', line 575):
-	@echo
-	@echo $(MSG_ASSEMBLING) $<
-	$(CC) -c $(ALL_ASFLAGS) $< -o $@
-	
-
-%.i: %.c
-#  commands to execute (from `makefile', line 582):
-	$(CC) -E -mmcu=$(MCU) -I. $(CFLAGS) $< -o $@ 
-	
-
-# 12 implicit rules, 0 (0.0%) terminal.
+# No implicit rules.
 
 # Files
 
-program: distance.hex distance.eep
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  commands to execute (from `makefile', line 449):
-	$(AVRDUDE) $(AVRDUDE_FLAGS) $(AVRDUDE_WRITE_FLASH) $(AVRDUDE_WRITE_EEPROM)
-	
-
 # Not a target:
-distance.elf:
-#  Implicit rule search has not been done.
-#  File is an intermediate prerequisite.
-#  Modification time never checked.
-#  File has not been updated.
-
-all: begin gccversion sizebefore build sizeafter end
-#  Phony target (prerequisite of .PHONY).
+all:
 #  Command-line target.
-#  Implicit rule search has not been done.
+#  Implicit rule search has been done.
 #  File does not exist.
-#  File has been updated.
-#  Needs to be updated (-q is set).
+#  File has not been updated.
 # variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
-
-.SECONDARY: distance.a distance.elf
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-.PHONY: all begin finish end sizebefore sizeafter gccversion build elf hex eep lss sym coff extcoff clean clean_list program debug gdb-config
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-sizebefore:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  commands to execute (from `makefile', line 432):
-	@if test -f $(TARGET).elf; then echo; echo $(MSG_SIZE_BEFORE); $(ELFSIZE); \
-	2>/dev/null; echo; fi
-	
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
 # Not a target:
 .DEFAULT:
@@ -513,168 +232,14 @@ sizebefore:
 #  File has not been updated.
 
 # Not a target:
-distance.c:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-.dep/distance.o.d:
+makefile:
 #  A default, MAKEFILES, or -include/sinclude makefile.
 #  Implicit rule search has been done.
-#  Last modified 2022-04-18 23:03:03
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
+#  Failed to be updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-
-begin:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: `'
-#  File does not exist.
-#  File has been updated.
-#  Needs to be updated (-q is set).
-# automatic
-# @ := begin
-# automatic
-# % := 
-# automatic
-# * := 
-# automatic
-# + := 
-# automatic
-# | := 
-# automatic
-# < := 
-# automatic
-# ^ := 
-# automatic
-# ? := 
-# variable set hash-table stats:
-# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
-#  commands to execute (from `makefile', line 419):
-	@echo
-	@echo $(MSG_BEGIN)
-	
-
-sizeafter:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  commands to execute (from `makefile', line 436):
-	@if test -f $(TARGET).elf; then echo; echo $(MSG_SIZE_AFTER); $(ELFSIZE); \
-	2>/dev/null; echo; fi
-	
-
-clean_list:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  commands to execute (from `makefile', line 589):
-	@echo
-	@echo $(MSG_CLEANING)
-	$(REMOVE) $(TARGET).hex
-	$(REMOVE) $(TARGET).eep
-	$(REMOVE) $(TARGET).cof
-	$(REMOVE) $(TARGET).elf
-	$(REMOVE) $(TARGET).map
-	$(REMOVE) $(TARGET).sym
-	$(REMOVE) $(TARGET).lss
-	$(REMOVE) $(SRC:%.c=$(OBJDIR)/%.o)
-	$(REMOVE) $(SRC:%.c=$(OBJDIR)/%.lst)
-	$(REMOVE) $(SRC:.c=.s)
-	$(REMOVE) $(SRC:.c=.d)
-	$(REMOVE) $(SRC:.c=.i)
-	$(REMOVEDIR) .dep
-	
-
-debug: gdb-config distance.elf
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  commands to execute (from `makefile', line 469):
-	@echo Starting AVaRICE - Press enter when "waiting to connect" message displays.
-	@$(WINSHELL) /c start avarice --jtag $(JTAG_DEV) --erase --program --file \
-	$(TARGET).elf $(DEBUG_HOST):$(DEBUG_PORT)
-	@$(WINSHELL) /c pause
-	@$(WINSHELL) /c start avr-$(DEBUG_UI) --command=$(GDBINIT_FILE)
-	
-
-# Not a target:
-makefile:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-18 23:00:19
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-
-gccversion:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  commands to execute (from `makefile', line 443):
-	@$(CC) --version
-	
-
-build: elf hex eep lss sym
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-
-eep: distance.eep
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-
-coff: distance.elf
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  commands to execute (from `makefile', line 493):
-	@echo
-	@echo $(MSG_COFF) $(TARGET).cof
-	$(COFFCONVERT) -O coff-avr $< $(TARGET).cof
-	
-
-extcoff: distance.elf
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  commands to execute (from `makefile', line 499):
-	@echo
-	@echo $(MSG_EXTENDED_COFF) $(TARGET).cof
-	$(COFFCONVERT) -O coff-ext-avr $< $(TARGET).cof
-	
-
-gdb-config:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  commands to execute (from `makefile', line 456):
-	@$(REMOVE) $(GDBINIT_FILE)
-	@echo define reset >> $(GDBINIT_FILE)
-	@echo SIGNAL SIGHUP >> $(GDBINIT_FILE)
-	@echo end >> $(GDBINIT_FILE)
-	@echo file $(TARGET).elf >> $(GDBINIT_FILE)
-	@echo target remote $(DEBUG_HOST):$(DEBUG_PORT)  >> $(GDBINIT_FILE)
-	@echo break main >> $(GDBINIT_FILE)
-	
-
-lib: libdistance.a
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
 
 # Not a target:
 .SUFFIXES:
@@ -683,123 +248,30 @@ lib: libdistance.a
 #  File has not been updated.
 
 # Not a target:
-distance.eep:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-sym: distance.sym
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
+GNUmakefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
 #  File does not exist.
-#  File has not been updated.
-
-hex: distance.hex
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-
-# Not a target:
-distance.lss:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-finish:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-
-clean: begin clean_list end
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-
-# Not a target:
-distance.sym:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been upd 
-ated.
-
-end:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  commands to execute (from `makefile', line 423):
-	@echo $(MSG_END)
-	@echo
-	
-
-.PRECIOUS: distance.o distance.o
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-lcd.c:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-elf: distance.elf
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-
-lss: distance.lss
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-
-distance.o: distance.c lcd.c lcd.h lcd.h
-#  Precious file (prerequisite of .PRECIOUS).
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-distance.hex:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-libdistance.a:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-distance.a:
-#  Implicit rule search has not been done.
-#  File is an intermediate prerequisite.
-#  Modification time never checked.
-#  File has not been updated.
-
-lcd.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
 # files hash-table stats:
-# Load=39/1024=4%, Rehash=0, Collisions=0/110=0%
+# Load=5/1024=0%, Rehash=0, Collisions=0/16=0%
 # VPATH Search Paths
 
 # No `vpath' search paths.
 
 # No general (`VPATH' variable) search path.
 
-# # of strings in strcache: 2
-# # of strcache buffers: 1
-# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
-# strcache free: total = 4069 / max = 4069 / min = 4069 / avg = 4069
+# # of strings in strcache: 0
+# # of strcache buffers: 0
+# strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
+# strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Tue Apr 19 19:36:34 2022
+# Finished Make data base on Wed Apr 20 12:03:56 2022
 
  
+make.exe: *** No rule to make target `all'.  Stop.
+
