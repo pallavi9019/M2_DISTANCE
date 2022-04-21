@@ -4,7 +4,7 @@ BUILD_DIR = Build
 
 # All Source code files
 SRC = distance.c\
-src/lcd.c\
+src/lcd.c
 
 
 
