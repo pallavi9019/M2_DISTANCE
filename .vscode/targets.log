@@ -6,9 +6,8 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # PARTICULAR PURPOSE.
 
 # This program built for i386-pc-mingw32
- 
 
-# Make data base, printed on Wed Apr 20 12:03:56 2022
+# Make data base, printed on Thu Apr 21 12:24:23 2022
 
 # Variables
 
@@ -57,12 +56,11 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-b1c70acf-2264-4d94-99b4-4f28a856d36d-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-bfea185d-2ec7-43bd-be2f-d8c7cad3c0de-sock
 # environment
 VSCODE_CWD = C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code
 # environment
-PATH = C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\MinGW\ 
-bin;C;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin
+PATH = C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\MinGW\bin;C;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin
 # environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # environment
@@ -84,7 +82,7 @@ SYNAPROGDIR = Synaptics\SynTP
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9392_DMQESRHPNYLGLBVK
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_11060_TEQHDPVKVKXMEISW
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -192,7 +190,7 @@ PROCESSOR_LEVEL = 6
 # environment
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
-VSCODE_PID = 9392
+VSCODE_PID = 11060
 # environment
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-L9O69TI
 # variable set hash-table stats:
@@ -204,11 +202,11 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-L9O69TI
 
 # Directories
 
-# . (key d:/M2_DISTANCE, mtime 1650436422): 8 files, no impossibilities.
+# . (key d:/M2_DISTANCE, mtime 1650524054): 14 files, no impossibilities.
 # C:\WinAVR-20100110\bin (key C:/WinAVR-20100110/bin, mtime 1649501913): 75 files, no impossibilities.
 # C:\WinAVR-20100110\utils\bin (key C:/WinAVR-20100110/utils/bin, mtime 1649590278): 99 files, no impossibilities so far.
 
-# 182 files, no impossibilities in 3 directories.
+# 188 files, no impossibilities in 3 directories.
 
 # Implicit Rules
 
@@ -270,7 +268,7 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Wed Apr 20 12:03:56 2022
+# Finished Make data base on Thu Apr 21 12:24:23 2022
 
  
 make.exe: *** No rule to make target `all'.  Stop.
