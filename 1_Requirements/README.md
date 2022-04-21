@@ -11,15 +11,14 @@ The source code is to be compiled in VS CODE with AVR compiler. This DISTANCEFIN
 -------------------------------------------------------------------------------------------------
 
 ## Cost and Features
-Our DISTANCEFINDER put learning. Your knowledge will be tested regarding a variety of subjects, including geography, cultures, and cartoons. Well-traveled players will love showcasing their map skills in every continent. Answer questions about international borders and capitals to score points and advance.
+Our DISTANCEFINDER put learning. Your knowledge will be tested regarding a variety of objects. 
 
 
 ## Defining Our System
-* System bacically takes input from the user and executes the particular function the user selected, and then print the values.
-In this quiz game mini project, you can store the user name, view the highest score secured by a user, and even reset the score. Additionally, to make the game look a little more interesting, it is divided into two rounds; user must pass the first round to reach the second one.
-
-Of the 2 rounds I mentioned above, the first is called the Warm-up Round; the second is the Challenge round. In the warm-up round, the user is asked a total of three simple questions and they must be able to answer at least two of them correctly to enter the next round. If the user is not capable of doing that, he is not permitted to proceed further.
-
+* ATmega32 microcontroller needs to transmit at least 10 us trigger pulse to the HC-SR04 Trig Pin.
+After getting a trigger pulse, HC-SR04 automatically sends eight 40 kHz sound waves and the microcontroller waits for rising edge output at the Echo pin.
+When the rising edge capture occurs at the Echo pin which is connected to an input of ATmega16, start Timer of ATmega16 and again wait for a falling edge on the Echo pin.
+As soon as the falling edge is captured at the Echo pin, the microcontroller reads the count of the Timer. This time count is used to calculate the distance to an object
 
 ## SWOT ANALYSIS
 ![image](https://github.com/pallavi9019/M1_March_2022/blob/59e84a171d7bcf3bd502d74067d43659d4439241/1_Requirements/SWOT%20analysis/SWOT%20analysis%20(1).png)
@@ -28,11 +27,11 @@ Of the 2 rounds I mentioned above, the first is called the Warm-up Round; the se
 
 ## Who:
 
-* All the mind sport in which players liek students,children etc for work,fun and projects.
+* All the mind people like students,children engineers for work,fun and projects.
 
 ## What:
 
-* project, a number of questions are asked, and the user is awarded cash prize for each correct answer given.
+* project, a number of objects are placed, and the user is will get the distance value from it.
 
 ## When:
 
@@ -55,7 +54,7 @@ Of the 2 rounds I mentioned above, the first is called the Warm-up Round; the se
 |HLR-2| System ask choice to continue. |Implemented|
 |HLR-3| user shall be able to get parameter value after giving any other  value. |Implemented|
 |HLR-4| user shall be able to get wrong correct answer. |Implemented|
-|HLR-5| user shall be able to get the history of the quiz game. |Future|
+|HLR-5| user shall be able to get the history of the Distancefinder. |Future|
 
 
 
@@ -63,6 +62,6 @@ Of the 2 rounds I mentioned above, the first is called the Warm-up Round; the se
 
 | ID | Description | Status (Implemented/Future)
 |:---:|:---:|:---:|
-|LLR-1| User shall be able to enter the value. |Implemented|
+|LLR-1| User shall be able to click the start button. |Implemented|
 |LLR-2| User shall be able to create their account. |Future|
 |LLR-3| User should be able to manage their data. |Future|
