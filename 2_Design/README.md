@@ -40,6 +40,6 @@ BLOCK DIAGRAM
 ![image](https://user-images.githubusercontent.com/86293096/164385451-c0f76634-d7a3-4768-b87c-1a345efc4985.png)
 
 CIRCUIT DIAGRAM
-![image](https://user-images.githubusercontent.com/86293096/164385600-08373e21-627d-44b3-8f9e-72a83a0931b8.png)
+
 
 
