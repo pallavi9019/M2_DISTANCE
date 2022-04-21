@@ -35,3 +35,8 @@ Pin 6 is E (Enable) which is connected to PIN 19 (PD5) of the microcontroller.
 Pin 7 to 14 are D0-D7 which are the data lines. They are connected to PORT A of the microcontroller (PIN 40-13).
 
 The pin 15 and 16 are for LCD back light and those pins will be connected to Vcc And Gnd.
+
+
+
+![image](https://user-images.githubusercontent.com/86293096/164385451-c0f76634-d7a3-4768-b87c-1a345efc4985.png)
+
