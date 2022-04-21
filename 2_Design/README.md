@@ -1,5 +1,5 @@
 
-##REQUIRED COMPONENTS
+## REQUIRED COMPONENTS
 
 ATmega32 Microcontroller
 HC-SR04 Ultrasonic Distance Sensor
