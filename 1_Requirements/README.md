@@ -5,7 +5,8 @@ This project uses an ultrasonic sensor to indicate the distance of any object fr
 
 ## Research
   DISTANCE FINDER...
-The source code is to be compiled in VS CODE with AVR compiler. This DISTANCEFINDER in EMBEDDED C is not designed to run on the Turbo C versions. The source code for this mini project is around 1000 lines, so I didn’t want to display it here.
+  
+The source code is to be compiled in VS CODE with AVR compiler. This DISTANCE FINDER in EMBEDDED C is not designed to run on the Turbo C versions. The source code for this mini project is around 1000 lines, so I didn’t want to display it here.
 -------------------------------------------------------------------------------------------------
 
 ## Cost and Features
