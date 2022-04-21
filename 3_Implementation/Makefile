@@ -5,7 +5,7 @@ BUILD_DIR = Build
 # All Source code files
 SRC = distance.c\
 src/lcd.c\
-inc\lcd.h
+
 
 
 # All header file paths
