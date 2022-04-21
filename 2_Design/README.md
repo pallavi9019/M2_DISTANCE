@@ -41,5 +41,5 @@ BLOCK DIAGRAM
 
 CIRCUIT DIAGRAM
 
-
+![image](https://github.com/pallavi9019/M2_DISTANCE/blob/2dfdeb701eaad32a45dac839476b1f4e143fdc7b/2_Design/Circuit%20diagram/distancefinder.png)
 
