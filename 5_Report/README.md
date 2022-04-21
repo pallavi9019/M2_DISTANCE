@@ -122,7 +122,7 @@ The pin 15 and 16 are for LCD back light and those pins will be connected to Vcc
 ![image](https://github.com/pallavi9019/M2_DISTANCE/blob/2dfdeb701eaad32a45dac839476b1f4e143fdc7b/2_Design/Circuit%20diagram/distancefinder.png)
 
 ## Flow chart
-![image](https://github.com/pallavi9019/M2_DISTANCE/blob/8aaf042ad6e73f78b54e49ea9dd71bce430a062e/2_Design/Flowchart/Figure-3-Obstacle-detection-and-avoidance-using-ultrasonic-sensor.png)# TEST PLAN:
+![image](https://user-images.githubusercontent.com/86293096/164518048-6caf0770-05d3-4139-b60a-c8d6f08a4702.png)
 
 ## Table no: High level test plan
 
