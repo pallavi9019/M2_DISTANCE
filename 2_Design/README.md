@@ -1,5 +1,6 @@
 
-Required Components
+##REQUIRED COMPONENTS
+
 ATmega32 Microcontroller
 HC-SR04 Ultrasonic Distance Sensor
 16×2 LCD Display
