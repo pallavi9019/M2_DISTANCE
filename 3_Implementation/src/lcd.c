@@ -1,7 +1,8 @@
+#ifndef  __AVR_ATmega32__
+    #define __AVR_ATmega32__
+#endif
 
-
-
-#include "inc/lcd.h"						/* Include LCD header file */
+#include "lcd.h"						/* Include LCD header file */
 
 
 void LCD_Command (char cmd)							/* LCD command write function */

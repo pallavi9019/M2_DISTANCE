@@ -6,8 +6,9 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # PARTICULAR PURPOSE.
 
 # This program built for i386-pc-mingw32
+ 
 
-# Make data base, printed on Thu Apr 21 12:24:23 2022
+# Make data base, printed on Thu Apr 21 12:57:18 2022
 
 # Variables
 
@@ -56,7 +57,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-bfea185d-2ec7-43bd-be2f-d8c7cad3c0de-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-a704a0a2-ceb8-4340-ab0c-82ce1d849075-sock
 # environment
 VSCODE_CWD = C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -82,7 +83,7 @@ SYNAPROGDIR = Synaptics\SynTP
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_11060_TEQHDPVKVKXMEISW
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_4552_FVAZBFLLSEHDDPNC
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -136,7 +137,10 @@ PROCESSOR_ARCHITEW6432 = AMD64
 # default
 .VARIABLES := 
 # automatic
-*F = $(notdir $*)
+*F = 
+make.exe: *** No rule to make target `all'.  Stop.
+
+ $(notdir $*)
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
 # environment
@@ -190,7 +194,7 @@ PROCESSOR_LEVEL = 6
 # environment
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
-VSCODE_PID = 11060
+VSCODE_PID = 4552
 # environment
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-L9O69TI
 # variable set hash-table stats:
@@ -202,7 +206,7 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-L9O69TI
 
 # Directories
 
-# . (key d:/M2_DISTANCE, mtime 1650524054): 14 files, no impossibilities.
+# . (key d:/M2_DISTANCE, mtime 1650524077): 14 files, no impossibilities.
 # C:\WinAVR-20100110\bin (key C:/WinAVR-20100110/bin, mtime 1649501913): 75 files, no impossibilities.
 # C:\WinAVR-20100110\utils\bin (key C:/WinAVR-20100110/utils/bin, mtime 1649590278): 99 files, no impossibilities so far.
 
@@ -268,8 +272,6 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Thu Apr 21 12:24:23 2022
+# Finished Make data base on Thu Apr 21 12:57:18 2022
 
  
-make.exe: *** No rule to make target `all'.  Stop.
-

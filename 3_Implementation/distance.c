@@ -1,4 +1,6 @@
-
+#ifndef __AVR_ATmega32__
+    #define __AVR_ATmega32__
+#endif
 
 #define F_CPU 8000000UL
 #include <avr/io.h>
@@ -6,8 +8,7 @@
 #include <util/delay.h>
 #include <string.h>
 #include <stdlib.h>
-#include "inc/lcd.h"
-#include "src/lcd.c"
+#include "lcd.h"
 #define  Trigger_pin	PD0	/* Trigger pin */
 
 
