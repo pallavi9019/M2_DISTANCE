@@ -4,7 +4,7 @@
 This project uses an ultrasonic sensor to indicate the distance of any object from it. Here we have made a setup based on a microcontroller in which real time distance is sensed by an ultrasonic sensor and displays measured distance on an LCD display.
 
 ## Research
-### DISTANCEFINDER...
+  DISTANCE FINDER...
 The source code is to be compiled in VS CODE with AVR compiler. This DISTANCEFINDER in EMBEDDED C is not designed to run on the Turbo C versions. The source code for this mini project is around 1000 lines, so I didn’t want to display it here.
 -------------------------------------------------------------------------------------------------
 
