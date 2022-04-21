@@ -44,4 +44,4 @@ CIRCUIT DIAGRAM
 ![image](https://github.com/pallavi9019/M2_DISTANCE/blob/2dfdeb701eaad32a45dac839476b1f4e143fdc7b/2_Design/Circuit%20diagram/distancefinder.png)
 
 Flow chart
-https://github.com/pallavi9019/M2_DISTANCE/blob/8aaf042ad6e73f78b54e49ea9dd71bce430a062e/2_Design/Flowchart/Figure-3-Obstacle-detection-and-avoidance-using-ultrasonic-sensor.png
+![image](https://github.com/pallavi9019/M2_DISTANCE/blob/8aaf042ad6e73f78b54e49ea9dd71bce430a062e/2_Design/Flowchart/Figure-3-Obstacle-detection-and-avoidance-using-ultrasonic-sensor.png)
