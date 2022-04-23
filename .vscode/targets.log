@@ -8,7 +8,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This program built for i386-pc-mingw32
  
 
-# Make data base, printed on Thu Apr 21 12:57:18 2022
+# Make data base, printed on Sat Apr 23 10:50:52 2022
 
 # Variables
 
@@ -52,12 +52,13 @@ FPS_BROWSER_USER_PROFILE_STRING = Default
 TMP = C:\Users\DELL\AppData\Local\Temp
 # environment
 VSCODE_VERBOSE_LOGGING = true
-# environment
+# environm 
+ent
 PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-a704a0a2-ceb8-4340-ab0c-82ce1d849075-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-2135090e-5445-46e4-8d03-6ff7c7c3edf1-sock
 # environment
 VSCODE_CWD = C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -83,7 +84,7 @@ SYNAPROGDIR = Synaptics\SynTP
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_4552_FVAZBFLLSEHDDPNC
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_6476_SNOJCEBLMRKJSNHB
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -137,10 +138,7 @@ PROCESSOR_ARCHITEW6432 = AMD64
 # default
 .VARIABLES := 
 # automatic
-*F = 
-make.exe: *** No rule to make target `all'.  Stop.
-
- $(notdir $*)
+*F = $(notdir $*)
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
 # environment
@@ -194,7 +192,7 @@ PROCESSOR_LEVEL = 6
 # environment
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
-VSCODE_PID = 4552
+VSCODE_PID = 6476
 # environment
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-L9O69TI
 # variable set hash-table stats:
@@ -272,6 +270,8 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Thu Apr 21 12:57:18 2022
+# Finished Make data base on Sat Apr 23 10:50:52 2022
 
  
+make.exe: *** No rule to make target `all'.  Stop.
+
