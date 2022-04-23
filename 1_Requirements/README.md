@@ -4,10 +4,9 @@
 This project uses an ultrasonic sensor to indicate the distance of any object from it. Here we have made a setup based on a microcontroller in which real time distance is sensed by an ultrasonic sensor and displays measured distance on an LCD display.
 
 ## Research
-### DISTANCEFINDER...
-The source code is to be compiled in VS CODE with AVR compiler. This DISTANCEFINDER in EMBEDDED C is not designed to run on the Turbo C versions. The source code for this mini project is around 1000 lines, so I didn’t want to display it here.
-
-![image](https://github.com/pallavi9019/M1_March_2022/blob/59e84a171d7bcf3bd502d74067d43659d4439241/1_Requirements/SWOT%20analysis/SWOT%20analysis%20(1).png)
+  DISTANCE FINDER...
+  
+The source code is to be compiled in VS CODE with AVR compiler. This DISTANCE FINDER in EMBEDDED C is not designed to run on the Turbo C versions. The source code for this mini project is around 1000 lines, so I didn’t want to display it here.
 -------------------------------------------------------------------------------------------------
 
 ## Cost and Features
@@ -50,7 +49,7 @@ As soon as the falling edge is captured at the Echo pin, the microcontroller rea
 
 | ID | Description | Status (Implemented/Future)
 |:---:|:---:|:---:|
-|HLR-1| User shall be able to select the band the user need to get value in resistor code calculator. |Implemented|
+|HLR-1| User shall be able to select the different inputs the user need to get values on LCD. |Implemented|
 |HLR-2| System ask choice to continue. |Implemented|
 |HLR-3| user shall be able to get parameter value after giving any other  value. |Implemented|
 |HLR-4| user shall be able to get wrong correct answer. |Implemented|
